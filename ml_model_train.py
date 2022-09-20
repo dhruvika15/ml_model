@@ -8,3 +8,5 @@ x= x.reshape(-1,1)
 from sklearn.linear_model import LinearRegression
 model= LinearRegression()
 model.fit(x,y)
+
+print('Changes Commited')
